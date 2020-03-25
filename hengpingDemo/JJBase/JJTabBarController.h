@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  JJTabBarController.h
 //  hengpingDemo
 //
 //  Created by 王铎 on 2020/3/25.
@@ -8,7 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+NS_ASSUME_NONNULL_BEGIN
+
+/// 基类tabbar
+@interface JJTabBarController : UITabBarController
 
 @end
 
+NS_ASSUME_NONNULL_END

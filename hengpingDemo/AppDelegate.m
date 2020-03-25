@@ -20,6 +20,11 @@
     return YES;
 }
 
+// 全局禁止app横屏幕时（作用同target 中设置 device origenration）
+//- (UIInterfaceOrientationMask)application:(UIApplication *)application supportedInterfaceOrientationsForWindow:(UIWindow *)window{
+//    return UIInterfaceOrientationMaskPortrait;
+//}
+
 
 #pragma mark - UISceneSession lifecycle
 

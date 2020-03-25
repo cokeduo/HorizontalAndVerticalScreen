@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		33A869C637C28AD96DE6F26F /* Pods_hengpingDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 509634032C06F0694C95588C /* Pods_hengpingDemo.framework */; };
 		BA97BF8A242B40E7001620DE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA97BF89242B40E7001620DE /* AppDelegate.m */; };
 		BA97BF8D242B40E7001620DE /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA97BF8C242B40E7001620DE /* SceneDelegate.m */; };
 		BA97BF90242B40E7001620DE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA97BF8F242B40E7001620DE /* ViewController.m */; };
@@ -16,6 +17,12 @@
 		BA97BF9B242B40EA001620DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA97BF9A242B40EA001620DE /* main.m */; };
 		BA97BFA5242B40EA001620DE /* hengpingDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA97BFA4242B40EA001620DE /* hengpingDemoTests.m */; };
 		BA97BFB0242B40EA001620DE /* hengpingDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA97BFAF242B40EA001620DE /* hengpingDemoUITests.m */; };
+		BA97BFD0242B5DBF001620DE /* PushedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA97BFCF242B5DBF001620DE /* PushedViewController.m */; };
+		BAC61526242B5EB800222BBC /* JJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC61521242B5EB700222BBC /* JJViewController.m */; };
+		BAC61527242B5EB800222BBC /* JJTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC61522242B5EB700222BBC /* JJTabBarController.m */; };
+		BAC61528242B5EB800222BBC /* JJNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC61524242B5EB700222BBC /* JJNavigationViewController.m */; };
+		BAC6152B242B79DF00222BBC /* PresentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC6152A242B79DF00222BBC /* PresentViewController.m */; };
+		BAC6152E242B7EAE00222BBC /* JJTools.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC6152D242B7EAE00222BBC /* JJTools.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		509634032C06F0694C95588C /* Pods_hengpingDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hengpingDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4EDBD33A2A7D88055F98D2C /* Pods-hengpingDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hengpingDemo.release.xcconfig"; path = "Target Support Files/Pods-hengpingDemo/Pods-hengpingDemo.release.xcconfig"; sourceTree = "<group>"; };
 		BA97BF85242B40E7001620DE /* hengpingDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hengpingDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA97BF88242B40E7001620DE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BA97BF89242B40E7001620DE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,6 +63,20 @@
 		BA97BFAB242B40EA001620DE /* hengpingDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hengpingDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA97BFAF242B40EA001620DE /* hengpingDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hengpingDemoUITests.m; sourceTree = "<group>"; };
 		BA97BFB1242B40EA001620DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA97BFCE242B5DBF001620DE /* PushedViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PushedViewController.h; sourceTree = "<group>"; };
+		BA97BFCF242B5DBF001620DE /* PushedViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PushedViewController.m; sourceTree = "<group>"; };
+		BAC6151F242B5EB700222BBC /* JJHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJHeader.h; sourceTree = "<group>"; };
+		BAC61520242B5EB700222BBC /* JJNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJNavigationViewController.h; sourceTree = "<group>"; };
+		BAC61521242B5EB700222BBC /* JJViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJViewController.m; sourceTree = "<group>"; };
+		BAC61522242B5EB700222BBC /* JJTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJTabBarController.m; sourceTree = "<group>"; };
+		BAC61523242B5EB700222BBC /* JJTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJTabBarController.h; sourceTree = "<group>"; };
+		BAC61524242B5EB700222BBC /* JJNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJNavigationViewController.m; sourceTree = "<group>"; };
+		BAC61525242B5EB700222BBC /* JJViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJViewController.h; sourceTree = "<group>"; };
+		BAC61529242B79DF00222BBC /* PresentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PresentViewController.h; sourceTree = "<group>"; };
+		BAC6152A242B79DF00222BBC /* PresentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PresentViewController.m; sourceTree = "<group>"; };
+		BAC6152C242B7EAE00222BBC /* JJTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJTools.h; sourceTree = "<group>"; };
+		BAC6152D242B7EAE00222BBC /* JJTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJTools.m; sourceTree = "<group>"; };
+		C31E27B6520045E0064FDF78 /* Pods-hengpingDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hengpingDemo.debug.xcconfig"; path = "Target Support Files/Pods-hengpingDemo/Pods-hengpingDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33A869C637C28AD96DE6F26F /* Pods_hengpingDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +105,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		875F115A5063B809B7B38D90 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				509634032C06F0694C95588C /* Pods_hengpingDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BA97BF7C242B40E7001620DE = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +120,8 @@
 				BA97BFA3242B40EA001620DE /* hengpingDemoTests */,
 				BA97BFAE242B40EA001620DE /* hengpingDemoUITests */,
 				BA97BF86242B40E7001620DE /* Products */,
+				BB9732F2B8BC2C653A57F13F /* Pods */,
+				875F115A5063B809B7B38D90 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,12 +138,17 @@
 		BA97BF87242B40E7001620DE /* hengpingDemo */ = {
 			isa = PBXGroup;
 			children = (
+				BAC6151E242B5EB700222BBC /* JJBase */,
 				BA97BF88242B40E7001620DE /* AppDelegate.h */,
 				BA97BF89242B40E7001620DE /* AppDelegate.m */,
 				BA97BF8B242B40E7001620DE /* SceneDelegate.h */,
 				BA97BF8C242B40E7001620DE /* SceneDelegate.m */,
 				BA97BF8E242B40E7001620DE /* ViewController.h */,
 				BA97BF8F242B40E7001620DE /* ViewController.m */,
+				BA97BFCE242B5DBF001620DE /* PushedViewController.h */,
+				BA97BFCF242B5DBF001620DE /* PushedViewController.m */,
+				BAC61529242B79DF00222BBC /* PresentViewController.h */,
+				BAC6152A242B79DF00222BBC /* PresentViewController.m */,
 				BA97BF91242B40E7001620DE /* Main.storyboard */,
 				BA97BF94242B40EA001620DE /* Assets.xcassets */,
 				BA97BF96242B40EA001620DE /* LaunchScreen.storyboard */,
@@ -137,6 +176,31 @@
 			path = hengpingDemoUITests;
 			sourceTree = "<group>";
 		};
+		BAC6151E242B5EB700222BBC /* JJBase */ = {
+			isa = PBXGroup;
+			children = (
+				BAC6151F242B5EB700222BBC /* JJHeader.h */,
+				BAC61525242B5EB700222BBC /* JJViewController.h */,
+				BAC61521242B5EB700222BBC /* JJViewController.m */,
+				BAC61523242B5EB700222BBC /* JJTabBarController.h */,
+				BAC61522242B5EB700222BBC /* JJTabBarController.m */,
+				BAC61520242B5EB700222BBC /* JJNavigationViewController.h */,
+				BAC61524242B5EB700222BBC /* JJNavigationViewController.m */,
+				BAC6152C242B7EAE00222BBC /* JJTools.h */,
+				BAC6152D242B7EAE00222BBC /* JJTools.m */,
+			);
+			path = JJBase;
+			sourceTree = "<group>";
+		};
+		BB9732F2B8BC2C653A57F13F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C31E27B6520045E0064FDF78 /* Pods-hengpingDemo.debug.xcconfig */,
+				A4EDBD33A2A7D88055F98D2C /* Pods-hengpingDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,9 +208,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BA97BFB4242B40EA001620DE /* Build configuration list for PBXNativeTarget "hengpingDemo" */;
 			buildPhases = (
+				01D8568A3540DAD3B7022F5F /* [CP] Check Pods Manifest.lock */,
 				BA97BF81242B40E7001620DE /* Sources */,
 				BA97BF82242B40E7001620DE /* Frameworks */,
 				BA97BF83242B40E7001620DE /* Resources */,
+				F22235C6EB21538E1D3A780A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -262,6 +328,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		01D8568A3540DAD3B7022F5F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-hengpingDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F22235C6EB21538E1D3A780A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-hengpingDemo/Pods-hengpingDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-hengpingDemo/Pods-hengpingDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-hengpingDemo/Pods-hengpingDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BA97BF81242B40E7001620DE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -269,8 +377,14 @@
 			files = (
 				BA97BF90242B40E7001620DE /* ViewController.m in Sources */,
 				BA97BF8A242B40E7001620DE /* AppDelegate.m in Sources */,
+				BAC61528242B5EB800222BBC /* JJNavigationViewController.m in Sources */,
 				BA97BF9B242B40EA001620DE /* main.m in Sources */,
 				BA97BF8D242B40E7001620DE /* SceneDelegate.m in Sources */,
+				BAC61526242B5EB800222BBC /* JJViewController.m in Sources */,
+				BA97BFD0242B5DBF001620DE /* PushedViewController.m in Sources */,
+				BAC6152E242B7EAE00222BBC /* JJTools.m in Sources */,
+				BAC61527242B5EB800222BBC /* JJTabBarController.m in Sources */,
+				BAC6152B242B79DF00222BBC /* PresentViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,7 +489,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -427,7 +541,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -437,9 +551,11 @@
 		};
 		BA97BFB5242B40EA001620DE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C31E27B6520045E0064FDF78 /* Pods-hengpingDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35NV3RTVE6;
 				INFOPLIST_FILE = hengpingDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -453,9 +569,11 @@
 		};
 		BA97BFB6242B40EA001620DE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4EDBD33A2A7D88055F98D2C /* Pods-hengpingDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T4SAW3YARN;
 				INFOPLIST_FILE = hengpingDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
